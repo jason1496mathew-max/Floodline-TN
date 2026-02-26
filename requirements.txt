@@ -9,6 +9,7 @@ pandas>=2.2.0
 numpy>=1.26.0
 geopandas>=0.14.1
 networkx>=3.2.1
+matplotlib>=3.8.0
 
 # Backend
 fastapi>=0.115.0
