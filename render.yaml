@@ -12,9 +12,10 @@ services:
       python scripts/generate_mock_data.py
       python scripts/process_geojson.py
       python scripts/generate_vulnerability_data.py
+      python scripts/generate_taluk_vulnerability.py
       python models/train.py
-      python models/shap_explain.py
-    startCommand: uvicorn api.main:app --host 0.0.0.0 --port 8000
+      python scripts/generate_district_predictions.py
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
     envVars:
       - key: PYTHON_VERSION
