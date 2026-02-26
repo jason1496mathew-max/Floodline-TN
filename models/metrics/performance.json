@@ -1,0 +1,198 @@
+{
+  "model_version": "1.0.0",
+  "model_type": "RandomForest+XGBoost Ensemble (Soft Voting)",
+  "trained_on": "2026-02-26T04:04:29.423856",
+  "training_samples": 88828,
+  "test_samples": 22208,
+  "features": [
+    "rainfall_mm",
+    "river_level_m",
+    "soil_moisture",
+    "humidity_pct",
+    "reservoir_pct",
+    "rainfall_7d",
+    "elevation_m",
+    "river_level_3d_avg",
+    "rainfall_3d_avg",
+    "rainfall_x_soil",
+    "river_x_elevation",
+    "humidity_x_soil",
+    "rainfall_lag1",
+    "river_level_lag1",
+    "is_monsoon",
+    "month_sin",
+    "month_cos",
+    "rainfall_7d_intensity",
+    "reservoir_overflow_risk"
+  ],
+  "num_features": 19,
+  "ensemble_weights": {
+    "random_forest": 0.4,
+    "xgboost": 0.6
+  },
+  "metrics": {
+    "f1_score_weighted": 0.9959027814817174,
+    "precision_weighted": 0.9959046741235222,
+    "recall_weighted": 0.9959023775216138,
+    "accuracy": 0.9959023775216138
+  },
+  "individual_models": {
+    "random_forest": {
+      "f1_score": 0.9935198621802128,
+      "precision": 0.9935329715787389,
+      "recall": 0.9935158501440923
+    },
+    "xgboost": {
+      "f1_score": 0.9959027814817174,
+      "precision": 0.9959046741235222,
+      "recall": 0.9959023775216138
+    }
+  },
+  "class_metrics": {
+    "low": {
+      "precision": 0.9975910580073232,
+      "recall": 0.9961512556528432,
+      "f1-score": 0.9968706369457416,
+      "support": 10393.0
+    },
+    "medium": {
+      "precision": 0.9943281427245539,
+      "recall": 0.9962802231866088,
+      "f1-score": 0.9953032258064516,
+      "support": 9678.0
+    },
+    "high": {
+      "precision": 0.9948429442100328,
+      "recall": 0.9929808142255498,
+      "f1-score": 0.9939110070257611,
+      "support": 2137.0
+    }
+  },
+  "cross_validation": {
+    "mean_f1": 0.9963527323959044,
+    "std_f1": 0.0002053341193341696,
+    "cv_scores": [
+      0.9963975060227925,
+      0.9963976781492864,
+      0.9962289189198519,
+      0.9960608500636239,
+      0.9966787088239666
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "rainfall_x_soil",
+      "importance_rf": 0.28856325131804983,
+      "importance_xgb": 0.45236995816230774,
+      "importance_ensemble": 0.3868472992664625
+    },
+    {
+      "feature": "humidity_x_soil",
+      "importance_rf": 0.13170008027428196,
+      "importance_xgb": 0.2194088101387024,
+      "importance_ensemble": 0.1843253241533987
+    },
+    {
+      "feature": "rainfall_mm",
+      "importance_rf": 0.1473663567272048,
+      "importance_xgb": 0.04360300675034523,
+      "importance_ensemble": 0.08510834748614712
+    },
+    {
+      "feature": "soil_moisture",
+      "importance_rf": 0.08770404444182922,
+      "importance_xgb": 0.06290961056947708,
+      "importance_ensemble": 0.07282738411841794
+    },
+    {
+      "feature": "rainfall_7d",
+      "importance_rf": 0.0609186099216671,
+      "importance_xgb": 0.046885259449481964,
+      "importance_ensemble": 0.05249860112847214
+    },
+    {
+      "feature": "reservoir_overflow_risk",
+      "importance_rf": 0.07374996694635044,
+      "importance_xgb": 0.02491307631134987,
+      "importance_ensemble": 0.044447833310408164
+    },
+    {
+      "feature": "rainfall_7d_intensity",
+      "importance_rf": 0.03815846222231668,
+      "importance_xgb": 0.03532805293798447,
+      "importance_ensemble": 0.03646021776930444
+    },
+    {
+      "feature": "river_level_3d_avg",
+      "importance_rf": 0.021107883874354444,
+      "importance_xgb": 0.04455004632472992,
+      "importance_ensemble": 0.035173182462166816
+    },
+    {
+      "feature": "river_level_m",
+      "importance_rf": 0.054755733902220285,
+      "importance_xgb": 0.019587744027376175,
+      "importance_ensemble": 0.0336549409086364
+    },
+    {
+      "feature": "humidity_pct",
+      "importance_rf": 0.035430616976182175,
+      "importance_xgb": 0.009684059768915176,
+      "importance_ensemble": 0.019982682651821976
+    },
+    {
+      "feature": "rainfall_3d_avg",
+      "importance_rf": 0.033607669247649824,
+      "importance_xgb": 0.009780573658645153,
+      "importance_ensemble": 0.019311412266776053
+    },
+    {
+      "feature": "reservoir_pct",
+      "importance_rf": 0.007226336803284373,
+      "importance_xgb": 0.014503401704132557,
+      "importance_ensemble": 0.011592576302586827
+    },
+    {
+      "feature": "river_level_lag1",
+      "importance_rf": 0.007723474906215378,
+      "importance_xgb": 0.0031296568922698498,
+      "importance_ensemble": 0.0049671841211311255
+    },
+    {
+      "feature": "river_x_elevation",
+      "importance_rf": 0.005145060507585111,
+      "importance_xgb": 0.004086792469024658,
+      "importance_ensemble": 0.00451009968444884
+    },
+    {
+      "feature": "rainfall_lag1",
+      "importance_rf": 0.0014675358676202348,
+      "importance_xgb": 0.0038974189665168524,
+      "importance_ensemble": 0.0029254659132227205
+    },
+    {
+      "feature": "is_monsoon",
+      "importance_rf": 0.003917662561349906,
+      "importance_xgb": 0.0011945147998631,
+      "importance_ensemble": 0.0022837739160993546
+    },
+    {
+      "feature": "month_sin",
+      "importance_rf": 0.0008719139652007739,
+      "importance_xgb": 0.0013330723159015179,
+      "importance_ensemble": 0.0011486089872627524
+    },
+    {
+      "feature": "elevation_m",
+      "importance_rf": 0.00035355611282314903,
+      "importance_xgb": 0.001473567564971745,
+      "importance_ensemble": 0.0010255629957538388
+    },
+    {
+      "feature": "month_cos",
+      "importance_rf": 0.0002317834238142087,
+      "importance_xgb": 0.0013614046620205045,
+      "importance_ensemble": 0.0009095562016625827
+    }
+  ]
+}

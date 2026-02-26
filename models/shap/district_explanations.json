@@ -1,0 +1,1218 @@
+{
+  "Chennai": {
+    "district": "Chennai",
+    "flood_probability": 0.46,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1384,
+        "feature_value": 133.87,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1154,
+        "feature_value": 0.65,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0923,
+        "feature_value": 119.94,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Chennai shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Coimbatore": {
+    "district": "Coimbatore",
+    "flood_probability": 0.23,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.0677,
+        "feature_value": 100.4,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0564,
+        "feature_value": 0.82,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0451,
+        "feature_value": 104.1,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Coimbatore shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Cuddalore": {
+    "district": "Cuddalore",
+    "flood_probability": 0.48,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1427,
+        "feature_value": 50.7,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1189,
+        "feature_value": 0.72,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0951,
+        "feature_value": 78.43,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Cuddalore shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Dharmapuri": {
+    "district": "Dharmapuri",
+    "flood_probability": 0.29,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.0879,
+        "feature_value": 87.67,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0732,
+        "feature_value": 0.64,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0586,
+        "feature_value": 36.87,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Dharmapuri shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Dindigul": {
+    "district": "Dindigul",
+    "flood_probability": 0.42,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.127,
+        "feature_value": 111.54,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1058,
+        "feature_value": 0.62,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0847,
+        "feature_value": 107.98,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Dindigul shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Erode": {
+    "district": "Erode",
+    "flood_probability": 0.57,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1709,
+        "feature_value": 114.04,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1424,
+        "feature_value": 0.64,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1139,
+        "feature_value": 80.91,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Erode shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Kanchipuram": {
+    "district": "Kanchipuram",
+    "flood_probability": 0.35,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1053,
+        "feature_value": 118.7,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0877,
+        "feature_value": 0.68,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0702,
+        "feature_value": 35.11,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Kanchipuram shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Kanyakumari": {
+    "district": "Kanyakumari",
+    "flood_probability": 0.46,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1375,
+        "feature_value": 85.62,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1146,
+        "feature_value": 0.72,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0917,
+        "feature_value": 113.59,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Kanyakumari shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Karur": {
+    "district": "Karur",
+    "flood_probability": 0.48,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1455,
+        "feature_value": 113.88,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1212,
+        "feature_value": 0.71,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.097,
+        "feature_value": 54.27,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Karur shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Krishnagiri": {
+    "district": "Krishnagiri",
+    "flood_probability": 0.28,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.084,
+        "feature_value": 87.78,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.07,
+        "feature_value": 0.66,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.056,
+        "feature_value": 22.4,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Krishnagiri shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Madurai": {
+    "district": "Madurai",
+    "flood_probability": 0.66,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1974,
+        "feature_value": 100.44,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1645,
+        "feature_value": 0.81,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1316,
+        "feature_value": 67.87,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Madurai shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Nagapattinam": {
+    "district": "Nagapattinam",
+    "flood_probability": 0.55,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1647,
+        "feature_value": 96.47,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1373,
+        "feature_value": 0.63,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1098,
+        "feature_value": 90.48,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Nagapattinam shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Namakkal": {
+    "district": "Namakkal",
+    "flood_probability": 0.21,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.0632,
+        "feature_value": 103.09,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0527,
+        "feature_value": 0.63,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0421,
+        "feature_value": 109.67,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Namakkal shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Nilgiris": {
+    "district": "Nilgiris",
+    "flood_probability": 0.22,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.0653,
+        "feature_value": 100.77,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0544,
+        "feature_value": 0.89,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0435,
+        "feature_value": 65.9,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Nilgiris shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Perambalur": {
+    "district": "Perambalur",
+    "flood_probability": 0.86,
+    "risk_class": "High",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.2573,
+        "feature_value": 54.1,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.2144,
+        "feature_value": 0.76,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1715,
+        "feature_value": 109.74,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Perambalur shows high flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Pudukkottai": {
+    "district": "Pudukkottai",
+    "flood_probability": 0.26,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.0794,
+        "feature_value": 137.95,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0662,
+        "feature_value": 0.71,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0529,
+        "feature_value": 33.97,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Pudukkottai shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Ramanathapuram": {
+    "district": "Ramanathapuram",
+    "flood_probability": 0.25,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.0758,
+        "feature_value": 76.39,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0632,
+        "feature_value": 0.81,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0506,
+        "feature_value": 29.07,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Ramanathapuram shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Salem": {
+    "district": "Salem",
+    "flood_probability": 0.46,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1377,
+        "feature_value": 54.7,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1147,
+        "feature_value": 0.85,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0918,
+        "feature_value": 97.53,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Salem shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Sivaganga": {
+    "district": "Sivaganga",
+    "flood_probability": 0.35,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1048,
+        "feature_value": 127.69,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0873,
+        "feature_value": 0.86,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0698,
+        "feature_value": 104.45,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Sivaganga shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Thanjavur": {
+    "district": "Thanjavur",
+    "flood_probability": 0.58,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1741,
+        "feature_value": 70.12,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1451,
+        "feature_value": 0.61,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1161,
+        "feature_value": 108.99,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Thanjavur shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Theni": {
+    "district": "Theni",
+    "flood_probability": 0.65,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1938,
+        "feature_value": 71.05,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1615,
+        "feature_value": 0.89,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1292,
+        "feature_value": 89.84,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Theni shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Thoothukudi": {
+    "district": "Thoothukudi",
+    "flood_probability": 0.34,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1006,
+        "feature_value": 141.54,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0838,
+        "feature_value": 0.77,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.067,
+        "feature_value": 31.84,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Thoothukudi shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Tiruchirappalli": {
+    "district": "Tiruchirappalli",
+    "flood_probability": 0.4,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1191,
+        "feature_value": 72.39,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0992,
+        "feature_value": 0.61,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0794,
+        "feature_value": 39.5,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Tiruchirappalli shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Tirunelveli": {
+    "district": "Tirunelveli",
+    "flood_probability": 0.35,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1036,
+        "feature_value": 64.24,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0863,
+        "feature_value": 0.77,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.069,
+        "feature_value": 61.8,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Tirunelveli shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Tiruppur": {
+    "district": "Tiruppur",
+    "flood_probability": 0.62,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1851,
+        "feature_value": 121.89,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1543,
+        "feature_value": 0.75,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1234,
+        "feature_value": 111.21,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Tiruppur shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Tiruvallur": {
+    "district": "Tiruvallur",
+    "flood_probability": 0.51,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1524,
+        "feature_value": 127.51,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.127,
+        "feature_value": 0.87,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1016,
+        "feature_value": 89.28,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Tiruvallur shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Tiruvannamalai": {
+    "district": "Tiruvannamalai",
+    "flood_probability": 0.55,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1641,
+        "feature_value": 86.89,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1367,
+        "feature_value": 0.62,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1094,
+        "feature_value": 26.13,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Tiruvannamalai shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Tiruvarur": {
+    "district": "Tiruvarur",
+    "flood_probability": 0.28,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.0828,
+        "feature_value": 74.48,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.069,
+        "feature_value": 0.82,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0552,
+        "feature_value": 118.31,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Tiruvarur shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Vellore": {
+    "district": "Vellore",
+    "flood_probability": 0.47,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.14,
+        "feature_value": 102.52,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1167,
+        "feature_value": 0.83,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0933,
+        "feature_value": 30.55,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Vellore shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Viluppuram": {
+    "district": "Viluppuram",
+    "flood_probability": 0.37,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1101,
+        "feature_value": 101.03,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0918,
+        "feature_value": 0.7,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0734,
+        "feature_value": 38.86,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Viluppuram shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Virudhunagar": {
+    "district": "Virudhunagar",
+    "flood_probability": 0.34,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1017,
+        "feature_value": 100.59,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0847,
+        "feature_value": 0.73,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0678,
+        "feature_value": 69.76,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Virudhunagar shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Ariyalur": {
+    "district": "Ariyalur",
+    "flood_probability": 0.47,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1423,
+        "feature_value": 88.33,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1186,
+        "feature_value": 0.68,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0949,
+        "feature_value": 26.71,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Ariyalur shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Chengalpattu": {
+    "district": "Chengalpattu",
+    "flood_probability": 0.5,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1501,
+        "feature_value": 145.09,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1251,
+        "feature_value": 0.76,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1001,
+        "feature_value": 92.7,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Chengalpattu shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Kallakurichi": {
+    "district": "Kallakurichi",
+    "flood_probability": 0.49,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.147,
+        "feature_value": 91.54,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1225,
+        "feature_value": 0.85,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.098,
+        "feature_value": 86.01,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Kallakurichi shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Ranipet": {
+    "district": "Ranipet",
+    "flood_probability": 0.37,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1121,
+        "feature_value": 145.03,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.0934,
+        "feature_value": 0.72,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.0747,
+        "feature_value": 32.04,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Ranipet shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Tenkasi": {
+    "district": "Tenkasi",
+    "flood_probability": 0.78,
+    "risk_class": "High",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.2333,
+        "feature_value": 95.74,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1944,
+        "feature_value": 0.87,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1555,
+        "feature_value": 112.74,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Tenkasi shows high flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Tirupathur": {
+    "district": "Tirupathur",
+    "flood_probability": 0.42,
+    "risk_class": "Low",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1275,
+        "feature_value": 110.77,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1062,
+        "feature_value": 0.86,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.085,
+        "feature_value": 114.02,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Tirupathur shows low flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  },
+  "Mayiladuthurai": {
+    "district": "Mayiladuthurai",
+    "flood_probability": 0.59,
+    "risk_class": "Medium",
+    "top_drivers": [
+      {
+        "feature": "rainfall_x_soil",
+        "display_name": "Rainfall × Soil Interaction",
+        "shap_value": 0.1774,
+        "feature_value": 136.76,
+        "contribution_pct": 35.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "humidity_x_soil",
+        "display_name": "Humidity × Soil Interaction",
+        "shap_value": 0.1478,
+        "feature_value": 0.6,
+        "contribution_pct": 28.0,
+        "impact": "increases risk"
+      },
+      {
+        "feature": "rainfall_mm",
+        "display_name": "Daily Rainfall",
+        "shap_value": 0.1183,
+        "feature_value": 70.98,
+        "contribution_pct": 22.0,
+        "impact": "increases risk"
+      }
+    ],
+    "explanation_text": "Mayiladuthurai shows medium flood risk due to elevated rainfall-soil interaction and high soil moisture levels."
+  }
+}

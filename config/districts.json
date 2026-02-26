@@ -1,0 +1,384 @@
+{
+  "districts": [
+    {
+      "id": 1,
+      "name": "Chennai",
+      "name_tamil": "சென்னை",
+      "lat": 13.0827,
+      "lon": 80.2707,
+      "elevation_m": 7,
+      "major_rivers": ["Cooum", "Adyar"],
+      "population": 7088000
+    },
+    {
+      "id": 2,
+      "name": "Coimbatore",
+      "name_tamil": "கோயம்புத்தூர்",
+      "lat": 11.0168,
+      "lon": 76.9558,
+      "elevation_m": 411,
+      "major_rivers": ["Noyyal"],
+      "population": 3458045
+    },
+    {
+      "id": 3,
+      "name": "Cuddalore",
+      "name_tamil": "கடலூர்",
+      "lat": 11.7480,
+      "lon": 79.7714,
+      "elevation_m": 5,
+      "major_rivers": ["Pennaiyar", "Vellar"],
+      "population": 2605914
+    },
+    {
+      "id": 4,
+      "name": "Dharmapuri",
+      "name_tamil": "தர்மபுரி",
+      "lat": 12.1211,
+      "lon": 78.1582,
+      "elevation_m": 275,
+      "major_rivers": ["Cauvery"],
+      "population": 1506843
+    },
+    {
+      "id": 5,
+      "name": "Dindigul",
+      "name_tamil": "திண்டுக்கல்",
+      "lat": 10.3624,
+      "lon": 77.9694,
+      "elevation_m": 268,
+      "major_rivers": ["Kodavanar"],
+      "population": 2159775
+    },
+    {
+      "id": 6,
+      "name": "Erode",
+      "name_tamil": "ஈரோடு",
+      "lat": 11.3410,
+      "lon": 77.7172,
+      "elevation_m": 150,
+      "major_rivers": ["Cauvery", "Bhavani"],
+      "population": 2251744
+    },
+    {
+      "id": 7,
+      "name": "Kanchipuram",
+      "name_tamil": "காஞ்சிபுரம்",
+      "lat": 12.8342,
+      "lon": 79.7036,
+      "elevation_m": 83,
+      "major_rivers": ["Palar"],
+      "population": 3998252
+    },
+    {
+      "id": 8,
+      "name": "Kanyakumari",
+      "name_tamil": "கன்னியாகுமரி",
+      "lat": 8.0883,
+      "lon": 77.5385,
+      "elevation_m": 30,
+      "major_rivers": ["Pazhayar"],
+      "population": 1870374
+    },
+    {
+      "id": 9,
+      "name": "Karur",
+      "name_tamil": "கரூர்",
+      "lat": 10.9601,
+      "lon": 78.0766,
+      "elevation_m": 120,
+      "major_rivers": ["Cauvery", "Amaravathi"],
+      "population": 1064493
+    },
+    {
+      "id": 10,
+      "name": "Krishnagiri",
+      "name_tamil": "கிருஷ்ணகிரி",
+      "lat": 12.5186,
+      "lon": 78.2137,
+      "elevation_m": 535,
+      "major_rivers": ["Chinnar"],
+      "population": 1879809
+    },
+    {
+      "id": 11,
+      "name": "Madurai",
+      "name_tamil": "மதுரை",
+      "lat": 9.9252,
+      "lon": 78.1198,
+      "elevation_m": 134,
+      "major_rivers": ["Vaigai"],
+      "population": 3038252
+    },
+    {
+      "id": 12,
+      "name": "Nagapattinam",
+      "name_tamil": "நாகப்பட்டினம்",
+      "lat": 10.7672,
+      "lon": 79.8449,
+      "elevation_m": 3,
+      "major_rivers": ["Cauvery"],
+      "population": 1616450
+    },
+    {
+      "id": 13,
+      "name": "Namakkal",
+      "name_tamil": "நாமக்கல்",
+      "lat": 11.2189,
+      "lon": 78.1677,
+      "elevation_m": 218,
+      "major_rivers": ["Cauvery"],
+      "population": 1726601
+    },
+    {
+      "id": 14,
+      "name": "Nilgiris",
+      "name_tamil": "நீலகிரி",
+      "lat": 11.4064,
+      "lon": 76.6932,
+      "elevation_m": 2240,
+      "major_rivers": ["Bhavani"],
+      "population": 735394
+    },
+    {
+      "id": 15,
+      "name": "Perambalur",
+      "name_tamil": "பெரம்பலூர்",
+      "lat": 11.2324,
+      "lon": 78.8793,
+      "elevation_m": 98,
+      "major_rivers": ["Vellar"],
+      "population": 565223
+    },
+    {
+      "id": 16,
+      "name": "Pudukkottai",
+      "name_tamil": "புதுக்கோட்டை",
+      "lat": 10.3833,
+      "lon": 78.8000,
+      "elevation_m": 91,
+      "major_rivers": ["Vellar"],
+      "population": 1618345
+    },
+    {
+      "id": 17,
+      "name": "Ramanathapuram",
+      "name_tamil": "ராமநாதபுரம்",
+      "lat": 9.3639,
+      "lon": 78.8370,
+      "elevation_m": 10,
+      "major_rivers": ["Vaigai"],
+      "population": 1353445
+    },
+    {
+      "id": 18,
+      "name": "Salem",
+      "name_tamil": "சேலம்",
+      "lat": 11.6643,
+      "lon": 78.1460,
+      "elevation_m": 278,
+      "major_rivers": ["Thirumanimutharu"],
+      "population": 3482056
+    },
+    {
+      "id": 19,
+      "name": "Sivaganga",
+      "name_tamil": "சிவகங்கை",
+      "lat": 9.8433,
+      "lon": 78.4809,
+      "elevation_m": 100,
+      "major_rivers": ["Vaigai"],
+      "population": 1339101
+    },
+    {
+      "id": 20,
+      "name": "Thanjavur",
+      "name_tamil": "தஞ்சாவூர்",
+      "lat": 10.7870,
+      "lon": 79.1378,
+      "elevation_m": 57,
+      "major_rivers": ["Cauvery", "Vennar"],
+      "population": 2405890
+    },
+    {
+      "id": 21,
+      "name": "Theni",
+      "name_tamil": "தேனி",
+      "lat": 10.0104,
+      "lon": 77.4977,
+      "elevation_m": 245,
+      "major_rivers": ["Suruliyar"],
+      "population": 1245899
+    },
+    {
+      "id": 22,
+      "name": "Thoothukudi",
+      "name_tamil": "தூத்துக்குடி",
+      "lat": 8.7642,
+      "lon": 78.1348,
+      "elevation_m": 4,
+      "major_rivers": ["Thamirabarani"],
+      "population": 1750176
+    },
+    {
+      "id": 23,
+      "name": "Tiruchirappalli",
+      "name_tamil": "திருச்சிராப்பள்ளி",
+      "lat": 10.7905,
+      "lon": 78.7047,
+      "elevation_m": 88,
+      "major_rivers": ["Cauvery"],
+      "population": 2722290
+    },
+    {
+      "id": 24,
+      "name": "Tirunelveli",
+      "name_tamil": "திருநெல்வேலி",
+      "lat": 8.7139,
+      "lon": 77.7567,
+      "elevation_m": 47,
+      "major_rivers": ["Thamirabarani"],
+      "population": 3077233
+    },
+    {
+      "id": 25,
+      "name": "Tiruppur",
+      "name_tamil": "திருப்பூர்",
+      "lat": 11.1075,
+      "lon": 77.3398,
+      "elevation_m": 295,
+      "major_rivers": ["Noyyal"],
+      "population": 2479052
+    },
+    {
+      "id": 26,
+      "name": "Tiruvallur",
+      "name_tamil": "திருவள்ளூர்",
+      "lat": 13.1439,
+      "lon": 79.9094,
+      "elevation_m": 27,
+      "major_rivers": ["Cooum", "Araniar"],
+      "population": 3728104
+    },
+    {
+      "id": 27,
+      "name": "Tiruvannamalai",
+      "name_tamil": "திருவண்ணாமலை",
+      "lat": 12.2253,
+      "lon": 79.0747,
+      "elevation_m": 200,
+      "major_rivers": ["Pennaiyar"],
+      "population": 2464875
+    },
+    {
+      "id": 28,
+      "name": "Tiruvarur",
+      "name_tamil": "திருவாரூர்",
+      "lat": 10.7725,
+      "lon": 79.6345,
+      "elevation_m": 3,
+      "major_rivers": ["Cauvery"],
+      "population": 1264277
+    },
+    {
+      "id": 29,
+      "name": "Vellore",
+      "name_tamil": "வேலூர்",
+      "lat": 12.9165,
+      "lon": 79.1325,
+      "elevation_m": 216,
+      "major_rivers": ["Palar"],
+      "population": 3936331
+    },
+    {
+      "id": 30,
+      "name": "Viluppuram",
+      "name_tamil": "விழுப்புரம்",
+      "lat": 11.9401,
+      "lon": 79.4861,
+      "elevation_m": 42,
+      "major_rivers": ["Ponnaiyar", "Sankarabarani"],
+      "population": 3458873
+    },
+    {
+      "id": 31,
+      "name": "Virudhunagar",
+      "name_tamil": "விருதுநகர்",
+      "lat": 9.5810,
+      "lon": 77.9624,
+      "elevation_m": 105,
+      "major_rivers": ["Arjuna"],
+      "population": 1967594
+    },
+    {
+      "id": 32,
+      "name": "Ariyalur",
+      "name_tamil": "அரியலூர்",
+      "lat": 11.1401,
+      "lon": 79.0770,
+      "elevation_m": 90,
+      "major_rivers": ["Kollidam"],
+      "population": 754894
+    },
+    {
+      "id": 33,
+      "name": "Chengalpattu",
+      "name_tamil": "செங்கல்பட்டு",
+      "lat": 12.6917,
+      "lon": 79.9759,
+      "elevation_m": 16,
+      "major_rivers": ["Palar"],
+      "population": 2556244
+    },
+    {
+      "id": 34,
+      "name": "Kallakurichi",
+      "name_tamil": "கள்ளக்குறிச்சி",
+      "lat": 11.7373,
+      "lon": 78.9596,
+      "elevation_m": 165,
+      "major_rivers": ["Manimuktha"],
+      "population": 1370281
+    },
+    {
+      "id": 35,
+      "name": "Ranipet",
+      "name_tamil": "ராணிப்பேட்டை",
+      "lat": 12.9249,
+      "lon": 79.3369,
+      "elevation_m": 260,
+      "major_rivers": ["Palar"],
+      "population": 1210277
+    },
+    {
+      "id": 36,
+      "name": "Tenkasi",
+      "name_tamil": "தென்காசி",
+      "lat": 8.9579,
+      "lon": 77.3152,
+      "elevation_m": 150,
+      "major_rivers": ["Chittar"],
+      "population": 1407627
+    },
+    {
+      "id": 37,
+      "name": "Tirupathur",
+      "name_tamil": "திருப்பத்தூர்",
+      "lat": 12.4969,
+      "lon": 78.5733,
+      "elevation_m": 300,
+      "major_rivers": ["Palar"],
+      "population": 1111729
+    },
+    {
+      "id": 38,
+      "name": "Mayiladuthurai",
+      "name_tamil": "மயிலாடுதுறை",
+      "lat": 11.1025,
+      "lon": 79.6538,
+      "elevation_m": 10,
+      "major_rivers": ["Cauvery"],
+      "population": 918356
+    }
+  ]
+}

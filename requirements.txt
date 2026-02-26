@@ -1,0 +1,43 @@
+# Core ML
+scikit-learn>=1.5.0
+xgboost>=2.1.0
+shap>=0.45.0
+joblib>=1.4.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+geopandas>=0.14.1
+networkx>=3.2.1
+
+# Backend
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.20
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+
+# Database
+sqlalchemy>=2.0.36
+# psycopg2-binary==2.9.9  # Commented out - not needed for mock data demo
+
+# HTTP & APIs
+requests>=2.32.0
+httpx>=0.28.0
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+pytz==2023.3
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.23.2
+pytest-cov==4.1.0
+
+# Development
+black==23.12.1
+flake8==7.0.0
+ipython==8.19.0
+jupyter==1.0.0

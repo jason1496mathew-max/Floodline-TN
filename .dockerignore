@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+data/alerts/sms_log.json
+
+# Git
+.git
+.gitignore
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+*.md
+prompts/
+
+# Tests
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend
+dashboard/
+node_modules/
+
+# Notebooks
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Temporary
+temp/
+tmp/
+*.tmp
+
+# Large data files (regenerated on deploy)
+data/cache/
+models/trained/*.pkl
+models/shap/*.pkl

@@ -1,0 +1,48 @@
+app:
+  name: "Floodline TN"
+  version: "1.0.0"
+  description: "AI-Based Flood Early Warning System for Tamil Nadu"
+
+data:
+  mock_mode: true
+  mock_data_path: "data/mock/tn_flood_data.csv"
+  geojson_districts: "data/geospatial/tn_districts.geojson"
+  geojson_taluks: "data/geospatial/tn_taluks.geojson"
+  vulnerability_data: "data/demographic/vulnerability_index.csv"
+
+model:
+  model_path: "models/trained/flood_classifier.pkl"
+  shap_explainer_path: "models/trained/shap_explainer.pkl"
+  metrics_path: "models/metrics/performance.json"
+  
+  # Training parameters
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+  
+  # Ensemble weights
+  random_forest_weight: 0.4
+  xgboost_weight: 0.6
+  
+  # Alert thresholds
+  thresholds:
+    advisory: 0.50
+    watch: 0.65
+    warning: 0.80
+    emergency: 0.90
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+  log_level: "info"
+  rate_limit: 100  # requests per minute
+
+alerts:
+  channels:
+    - sms
+    - email
+    - push
+  languages:
+    - tamil
+    - english

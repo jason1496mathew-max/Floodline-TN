@@ -1,0 +1,364 @@
+{
+  "metadata": {
+    "name": "Tamil Nadu River Network Configuration",
+    "description": "Major river systems for flood propagation modeling",
+    "version": "1.0.0",
+    "last_updated": "2026-02-25",
+    "total_rivers": 4,
+    "coverage_districts": 21
+  },
+  "rivers": [
+    {
+      "name": "Cauvery",
+      "name_tamil": "காவிரி",
+      "name_english": "Kaveri",
+      "description": "The lifeline of Tamil Nadu, flowing from Karnataka through major agricultural districts",
+      "source_state": "Karnataka",
+      "source_location": "Talakaveri, Western Ghats",
+      "outlet": "Bay of Bengal",
+      "total_length_km": 800,
+      "length_in_tn_km": 416,
+      "avg_flow_velocity_kmh": 8.5,
+      "basin_area_sq_km": 43000,
+      "major_tributaries": ["Bhavani", "Amaravathi", "Noyyal"],
+      "major_dams": [
+        {
+          "name": "Mettur Dam",
+          "district": "Salem",
+          "capacity_mcm": 2648,
+          "elevation_m": 250
+        }
+      ],
+      "flow_path": [
+        {
+          "district": "Dharmapuri",
+          "district_tamil": "தர்மபுரி",
+          "distance_km": 0,
+          "elevation_m": 200,
+          "population": 1506843,
+          "vulnerable_points": ["Entry point from Karnataka"],
+          "latitude": 12.1211,
+          "longitude": 78.1582
+        },
+        {
+          "district": "Salem",
+          "district_tamil": "சேலம்",
+          "distance_km": 45,
+          "elevation_m": 180,
+          "population": 3482056,
+          "vulnerable_points": ["Mettur Dam downstream", "Urban flooding"],
+          "latitude": 11.6643,
+          "longitude": 78.1460
+        },
+        {
+          "district": "Erode",
+          "district_tamil": "ஈரோடு",
+          "distance_km": 85,
+          "elevation_m": 150,
+          "population": 2251744,
+          "vulnerable_points": ["Bhavani confluence", "Agricultural areas"],
+          "latitude": 11.3410,
+          "longitude": 77.7172
+        },
+        {
+          "district": "Karur",
+          "district_tamil": "கரூர்",
+          "distance_km": 120,
+          "elevation_m": 120,
+          "population": 1064493,
+          "vulnerable_points": ["Amaravathi confluence", "Low-lying farmlands"],
+          "latitude": 10.9601,
+          "longitude": 78.0766
+        },
+        {
+          "district": "Tiruchirappalli",
+          "district_tamil": "திருச்சிராப்பள்ளி",
+          "distance_km": 180,
+          "elevation_m": 78,
+          "population": 2722290,
+          "vulnerable_points": ["Grand Anicut", "Urban center", "Delta entry"],
+          "latitude": 10.7905,
+          "longitude": 78.7047
+        },
+        {
+          "district": "Thanjavur",
+          "district_tamil": "தஞ்சாவூர்",
+          "distance_km": 250,
+          "elevation_m": 50,
+          "population": 2405890,
+          "vulnerable_points": ["Delta rice bowl", "Multiple distributaries"],
+          "latitude": 10.7870,
+          "longitude": 79.1378
+        },
+        {
+          "district": "Tiruvarur",
+          "district_tamil": "திருவாரூர்",
+          "distance_km": 320,
+          "elevation_m": 30,
+          "population": 1264277,
+          "vulnerable_points": ["Coastal proximity", "Low elevation"],
+          "latitude": 10.7660,
+          "longitude": 79.6345
+        },
+        {
+          "district": "Nagapattinam",
+          "district_tamil": "நாகப்பட்டினம்",
+          "distance_km": 416,
+          "elevation_m": 5,
+          "population": 1616450,
+          "vulnerable_points": ["Coastal district", "Sea-level flooding risk"],
+          "latitude": 10.7652,
+          "longitude": 79.8419
+        }
+      ],
+      "historical_floods": [
+        {
+          "year": 2018,
+          "severity": "Severe",
+          "affected_districts": ["Thanjavur", "Tiruchirappalli", "Karur"],
+          "reason": "Mettur Dam release + Heavy monsoon"
+        }
+      ]
+    },
+    {
+      "name": "Vaigai",
+      "name_tamil": "வைகை",
+      "name_english": "Vaigai",
+      "description": "Southern river system flowing through Madurai to Ramanathapuram",
+      "source_state": "Tamil Nadu",
+      "source_location": "Varushanad Hills, Western Ghats",
+      "outlet": "Palk Strait",
+      "total_length_km": 258,
+      "length_in_tn_km": 258,
+      "avg_flow_velocity_kmh": 12.0,
+      "basin_area_sq_km": 7031,
+      "major_tributaries": ["Suruliyar", "Varattar"],
+      "major_dams": [
+        {
+          "name": "Vaigai Dam",
+          "district": "Theni",
+          "capacity_mcm": 194,
+          "elevation_m": 300
+        }
+      ],
+      "flow_path": [
+        {
+          "district": "Theni",
+          "district_tamil": "தேனி",
+          "distance_km": 0,
+          "elevation_m": 300,
+          "population": 1245899,
+          "vulnerable_points": ["Vaigai Dam downstream", "Hill station runoff"],
+          "latitude": 10.0104,
+          "longitude": 77.4774
+        },
+        {
+          "district": "Madurai",
+          "district_tamil": "மதுரை",
+          "distance_km": 70,
+          "elevation_m": 134,
+          "population": 3038252,
+          "vulnerable_points": ["Major urban center", "Temple district", "Low bridges"],
+          "latitude": 9.9252,
+          "longitude": 78.1198
+        },
+        {
+          "district": "Sivaganga",
+          "district_tamil": "சிவகங்கை",
+          "distance_km": 140,
+          "elevation_m": 80,
+          "population": 1339101,
+          "vulnerable_points": ["Agricultural belt", "Tank systems"],
+          "latitude": 9.8433,
+          "longitude": 78.4809
+        },
+        {
+          "district": "Ramanathapuram",
+          "district_tamil": "ராமநாதபுரம்",
+          "distance_km": 258,
+          "elevation_m": 10,
+          "population": 1353445,
+          "vulnerable_points": ["Coastal terminus", "Low-lying areas", "Gulf proximity"],
+          "latitude": 9.3641,
+          "longitude": 78.8377
+        }
+      ],
+      "historical_floods": [
+        {
+          "year": 2021,
+          "severity": "Moderate",
+          "affected_districts": ["Madurai", "Sivaganga"],
+          "reason": "Vaigai Dam release during cyclone Burevi"
+        }
+      ]
+    },
+    {
+      "name": "Palar",
+      "name_tamil": "பாலாறு",
+      "name_english": "Palar",
+      "description": "Northern river flowing from Karnataka through Chennai",
+      "source_state": "Karnataka",
+      "source_location": "Nandi Hills",
+      "outlet": "Bay of Bengal",
+      "total_length_km": 400,
+      "length_in_tn_km": 348,
+      "avg_flow_velocity_kmh": 10.0,
+      "basin_area_sq_km": 17871,
+      "major_tributaries": ["Cheyyar"],
+      "major_dams": [],
+      "flow_path": [
+        {
+          "district": "Vellore",
+          "district_tamil": "வேலூர்",
+          "distance_km": 0,
+          "elevation_m": 220,
+          "population": 3936331,
+          "vulnerable_points": ["Entry from Karnataka", "Industrial zones"],
+          "latitude": 12.9165,
+          "longitude": 79.1325
+        },
+        {
+          "district": "Tiruvannamalai",
+          "district_tamil": "திருவண்ணாமலை",
+          "distance_km": 60,
+          "elevation_m": 180,
+          "population": 2464875,
+          "vulnerable_points": ["Temple town", "Agricultural land"],
+          "latitude": 12.2253,
+          "longitude": 79.0747
+        },
+        {
+          "district": "Kanchipuram",
+          "district_tamil": "காஞ்சிபுரம்",
+          "distance_km": 150,
+          "elevation_m": 90,
+          "population": 3998252,
+          "vulnerable_points": ["Historical monuments", "Silk weaving areas"],
+          "latitude": 12.8342,
+          "longitude": 79.7036
+        },
+        {
+          "district": "Chengalpattu",
+          "district_tamil": "செங்கல்பட்டு",
+          "distance_km": 260,
+          "elevation_m": 30,
+          "population": 2556244,
+          "vulnerable_points": ["Peri-urban sprawl", "Low elevation"],
+          "latitude": 12.6819,
+          "longitude": 79.9760
+        },
+        {
+          "district": "Chennai",
+          "district_tamil": "சென்னை",
+          "distance_km": 348,
+          "elevation_m": 7,
+          "population": 7088000,
+          "vulnerable_points": ["State capital", "IT corridor", "Coastal metro"],
+          "latitude": 13.0827,
+          "longitude": 80.2707
+        }
+      ],
+      "historical_floods": [
+        {
+          "year": 2015,
+          "severity": "Catastrophic",
+          "affected_districts": ["Chennai", "Kanchipuram", "Tiruvallur"],
+          "reason": "Unprecedented monsoon + reservoir overflow"
+        }
+      ]
+    },
+    {
+      "name": "Tamirabarani",
+      "name_tamil": "தாமிரபரணி",
+      "name_english": "Thamirabarani",
+      "description": "Only perennial river originating and ending in Tamil Nadu",
+      "source_state": "Tamil Nadu",
+      "source_location": "Agastyarkoodam, Western Ghats",
+      "outlet": "Gulf of Mannar",
+      "total_length_km": 128,
+      "length_in_tn_km": 128,
+      "avg_flow_velocity_kmh": 15.0,
+      "basin_area_sq_km": 5969,
+      "major_tributaries": ["Manimuthar", "Gadananathi"],
+      "major_dams": [
+        {
+          "name": "Papanasam Dam",
+          "district": "Tirunelveli",
+          "capacity_mcm": 83,
+          "elevation_m": 150
+        }
+      ],
+      "flow_path": [
+        {
+          "district": "Tirunelveli",
+          "district_tamil": "திருநெல்வேலி",
+          "distance_km": 0,
+          "elevation_m": 150,
+          "population": 3077233,
+          "vulnerable_points": ["Papanasam Dam", "Urban center", "Agricultural belt"],
+          "latitude": 8.7139,
+          "longitude": 77.7567
+        },
+        {
+          "district": "Thoothukudi",
+          "district_tamil": "தூத்துக்குடி",
+          "distance_km": 128,
+          "elevation_m": 15,
+          "population": 1750176,
+          "vulnerable_points": ["Port city", "Coastal industry", "Pearl banks"],
+          "latitude": 8.7642,
+          "longitude": 78.1348
+        }
+      ],
+      "historical_floods": [
+        {
+          "year": 2008,
+          "severity": "Moderate",
+          "affected_districts": ["Tirunelveli", "Thoothukudi"],
+          "reason": "Cyclone Nisha + Papanasam Dam release"
+        }
+      ]
+    }
+  ],
+  "propagation_parameters": {
+    "trigger_conditions": {
+      "rainfall_threshold_mm": 150,
+      "river_level_threshold_m": 2.5,
+      "combined_trigger": "Either condition OR both conditions met"
+    },
+    "risk_categories": {
+      "critical": {
+        "travel_time_hours": 6,
+        "description": "Immediate evacuation required",
+        "color": "#D32F2F"
+      },
+      "high": {
+        "travel_time_hours": 12,
+        "description": "Prepare for evacuation within 6-12 hours",
+        "color": "#F57C00"
+      },
+      "medium": {
+        "travel_time_hours": 24,
+        "description": "Monitor situation, evacuation may be needed",
+        "color": "#FBC02D"
+      },
+      "low": {
+        "travel_time_hours": 48,
+        "description": "Advisory level, stay informed",
+        "color": "#388E3C"
+      }
+    },
+    "velocity_factors": {
+      "monsoon_multiplier": 1.3,
+      "dry_season_multiplier": 0.7,
+      "dam_release_multiplier": 1.5
+    }
+  },
+  "notes": [
+    "Flow velocities are approximate averages; actual velocities vary with season and rainfall",
+    "Distance measurements are approximate and represent main channel distance",
+    "Elevation data is representative for district centers, not precise river bed elevations",
+    "Propagation times assume moderate flow conditions; extreme events may be faster",
+    "Historical flood data is illustrative; comprehensive data requires meteorological records"
+  ]
+}

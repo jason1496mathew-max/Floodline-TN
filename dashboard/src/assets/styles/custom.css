@@ -1,0 +1,76 @@
+/* Additional custom styles for Floodline TN */
+
+/* Tamil text support */
+.tamil-text {
+  font-family: 'Noto Sans Tamil', sans-serif;
+  font-size: 1.1rem;
+}
+
+/* District card */
+.district-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.district-card:hover {
+  border-color: #007bff !important;
+}
+
+/* Forecast chart container */
+.forecast-chart {
+  height: 400px;
+  padding: 1rem;
+}
+
+/* SHAP chart */
+.shap-chart {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Propagation timeline */
+.propagation-timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.propagation-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #007bff;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.5rem;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #007bff;
+  border: 2px solid white;
+}
+
+/* Utility classes */
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

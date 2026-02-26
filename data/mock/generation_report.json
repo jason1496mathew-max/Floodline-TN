@@ -1,0 +1,38 @@
+{
+  "total_rows": 111036,
+  "districts": 38,
+  "date_range": {
+    "start": "2016-01-01",
+    "end": "2023-12-31",
+    "days": 2922
+  },
+  "flood_events": {
+    "count": 56325,
+    "percentage": 50.73
+  },
+  "missing_values": {
+    "date": 0,
+    "district": 0,
+    "elevation_m": 0,
+    "rainfall_mm": 3416,
+    "river_level_m": 0,
+    "soil_moisture": 0,
+    "humidity_pct": 3479,
+    "reservoir_pct": 3703,
+    "rainfall_7d": 0,
+    "flood_occurred": 0
+  },
+  "statistics": {
+    "rainfall_mm": {
+      "mean": 66.59,
+      "std": 74.92,
+      "max": 920.0
+    },
+    "river_level_m": {
+      "mean": -0.17,
+      "max": 4.0
+    }
+  },
+  "generated_at": "2026-02-26T03:58:06.941411",
+  "generator_version": "1.0.0"
+}

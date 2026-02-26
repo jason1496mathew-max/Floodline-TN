@@ -1,0 +1,88 @@
+/* Chart Components Styling */
+
+.shap-chart-card,
+.forecast-chart-card,
+.model-metrics-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Recharts Tooltip */
+.custom-chart-tooltip {
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  max-width: 250px;
+}
+
+.custom-chart-tooltip .label {
+  font-weight: 600;
+  color: #212529;
+}
+
+.custom-chart-tooltip .contribution {
+  color: #495057;
+}
+
+.custom-chart-tooltip .impact {
+  font-style: italic;
+}
+
+/* SHAP Chart */
+.shap-explanation {
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+/* Forecast Chart */
+.forecast-summary .summary-card {
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.forecast-summary .summary-card h5 {
+  font-weight: 700;
+  color: #2196F3;
+}
+
+/* Model Metrics */
+.metric-item {
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.metric-item strong {
+  font-size: 0.9rem;
+}
+
+.metric-item .badge {
+  font-size: 0.85rem;
+}
+
+/* Risk Gauge */
+.risk-gauge {
+  display: inline-block;
+  position: relative;
+}
+
+.risk-gauge svg {
+  transform: rotate(0deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-chart-tooltip {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+
+  .forecast-summary .summary-card {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,132 @@
+/* Alert Banner */
+.alert-banner {
+  position: fixed;
+  top: 56px; /* Below navbar */
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  animation: slideDown 0.3s ease-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.alert-banner-emergency {
+  animation: slideDown 0.3s ease-out, pulse 2s ease-in-out infinite;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+.alert-icon-pulse {
+  animation: iconPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes iconPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.alert-banner .alert-message {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Alert Card */
+.alert-card {
+  transition: all 0.2s ease;
+  border-radius: 8px;
+}
+
+.alert-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.alert-card .driver-info {
+  font-size: 0.9rem;
+}
+
+.alert-card .message-box {
+  background-color: #f8f9fa;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.alert-card code {
+  background-color: #e9ecef;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.85rem;
+}
+
+/* Alert History */
+.alert-list {
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.alert-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.alert-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.alert-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.alert-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Tamil text styling */
+.tamil-text {
+  font-family: 'Noto Sans Tamil', sans-serif;
+  font-size: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .alert-banner {
+    top: 56px;
+  }
+
+  .alert-banner .alert-message {
+    font-size: 0.85rem;
+  }
+
+  .alert-card h6 {
+    font-size: 0.95rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .alert-banner {
+    position: relative;
+    page-break-inside: avoid;
+  }
+}

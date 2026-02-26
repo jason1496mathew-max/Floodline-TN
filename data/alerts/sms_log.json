@@ -1,0 +1,322 @@
+[
+  {
+    "alert_id": "FLT-20260225232247-0001",
+    "district": "Madurai",
+    "alert_level": "Warning",
+    "dispatched_at": "2026-02-25T23:22:47.569211",
+    "total_messages": 5,
+    "total_recipients": 3504,
+    "messages": [
+      {
+        "recipient": "+91-98765-43210",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232247-0001",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:22:47.569099",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232247"
+      },
+      {
+        "recipient": "+91-98765-43211",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232247-0001",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:22:47.569157",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232247"
+      },
+      {
+        "recipient": "+91-98765-43212",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232247-0001",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:22:47.569176",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232247"
+      },
+      {
+        "recipient": "+91-98765-43213",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232247-0001",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:22:47.569189",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232247"
+      },
+      {
+        "recipient": "PUBLIC_GROUP",
+        "recipient_type": "public",
+        "district": "Madurai",
+        "subscriber_count": 3500,
+        "message": "எச்சரிக்கை: மதுரை வெள்ள அபாயம் 88%. உயர்ந்த நிலப்பகுதிக்கு செல்லவும். வெள்ள பாதிப்பு ப. SDMA: 1070",
+        "status": "queued",
+        "timestamp": "2026-02-25T23:22:47.569204",
+        "cost": 70.0
+      }
+    ],
+    "alert_metadata": {
+      "probability": 87.5,
+      "top_driver": "Vaigai river level exceeds danger mark"
+    }
+  },
+  {
+    "alert_id": "FLT-20260225232844-0003",
+    "district": "Madurai",
+    "alert_level": "Warning",
+    "dispatched_at": "2026-02-25T23:28:44.326112",
+    "total_messages": 4,
+    "total_recipients": 4,
+    "messages": [
+      {
+        "recipient": "+91-98765-43210",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232844-0003",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:28:44.325996",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232844"
+      },
+      {
+        "recipient": "+91-98765-43211",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232844-0003",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:28:44.326055",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232844"
+      },
+      {
+        "recipient": "+91-98765-43212",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232844-0003",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:28:44.326079",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232844"
+      },
+      {
+        "recipient": "+91-98765-43213",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232844-0003",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:28:44.326095",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232844"
+      }
+    ],
+    "alert_metadata": {
+      "probability": 87.5,
+      "top_driver": "7-Day Cumulative Rainfall exceeds threshold"
+    }
+  },
+  {
+    "alert_id": "FLT-20260225232844-0004",
+    "district": "Coimbatore",
+    "alert_level": "Emergency",
+    "dispatched_at": "2026-02-25T23:28:44.329491",
+    "total_messages": 5,
+    "total_recipients": 4004,
+    "messages": [
+      {
+        "recipient": "+91-98765-43210",
+        "recipient_type": "official",
+        "message": "EMERGENCY: Coimbatore flood risk 96%. EVACUATE IMMEDIATELY to designated safe shelters. SDMA: 1070",
+        "alert_id": "FLT-20260225232844-0004",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:28:44.329310",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232844"
+      },
+      {
+        "recipient": "+91-98765-43211",
+        "recipient_type": "official",
+        "message": "EMERGENCY: Coimbatore flood risk 96%. EVACUATE IMMEDIATELY to designated safe shelters. SDMA: 1070",
+        "alert_id": "FLT-20260225232844-0004",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:28:44.329378",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232844"
+      },
+      {
+        "recipient": "+91-98765-43212",
+        "recipient_type": "official",
+        "message": "EMERGENCY: Coimbatore flood risk 96%. EVACUATE IMMEDIATELY to designated safe shelters. SDMA: 1070",
+        "alert_id": "FLT-20260225232844-0004",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:28:44.329416",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232844"
+      },
+      {
+        "recipient": "+91-98765-43213",
+        "recipient_type": "official",
+        "message": "EMERGENCY: Coimbatore flood risk 96%. EVACUATE IMMEDIATELY to designated safe shelters. SDMA: 1070",
+        "alert_id": "FLT-20260225232844-0004",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:28:44.329444",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232844"
+      },
+      {
+        "recipient": "PUBLIC_GROUP",
+        "recipient_type": "public",
+        "district": "Coimbatore",
+        "subscriber_count": 4000,
+        "message": "அவசரநிலை: கோயம்புத்தூர் வெள்ள அபாயம் 96%. உடனடியாக நியமிக்கப்பட்ட பாதுகாப்பு முகாம்களுக்கு வ. SDMA: 1070",
+        "status": "queued",
+        "timestamp": "2026-02-25T23:28:44.329478",
+        "cost": 80.0
+      }
+    ],
+    "alert_metadata": {
+      "probability": 95.5,
+      "top_driver": "River flooding + Dam overflow risk"
+    }
+  },
+  {
+    "alert_id": "FLT-20260225232924-0003",
+    "district": "Madurai",
+    "alert_level": "Warning",
+    "dispatched_at": "2026-02-25T23:29:24.710109",
+    "total_messages": 4,
+    "total_recipients": 4,
+    "messages": [
+      {
+        "recipient": "+91-98765-43210",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232924-0003",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:29:24.709825",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232924"
+      },
+      {
+        "recipient": "+91-98765-43211",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232924-0003",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:29:24.709932",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232924"
+      },
+      {
+        "recipient": "+91-98765-43212",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232924-0003",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:29:24.710009",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232924"
+      },
+      {
+        "recipient": "+91-98765-43213",
+        "recipient_type": "official",
+        "message": "WARNING: Madurai flood risk 88%. Move to higher ground. Avoid flood-prone areas. SDMA: 1070",
+        "alert_id": "FLT-20260225232924-0003",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:29:24.710058",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232924"
+      }
+    ],
+    "alert_metadata": {
+      "probability": 87.5,
+      "top_driver": "7-Day Cumulative Rainfall exceeds threshold"
+    }
+  },
+  {
+    "alert_id": "FLT-20260225232924-0004",
+    "district": "Coimbatore",
+    "alert_level": "Emergency",
+    "dispatched_at": "2026-02-25T23:29:24.717561",
+    "total_messages": 5,
+    "total_recipients": 4004,
+    "messages": [
+      {
+        "recipient": "+91-98765-43210",
+        "recipient_type": "official",
+        "message": "EMERGENCY: Coimbatore flood risk 96%. EVACUATE IMMEDIATELY to designated safe shelters. SDMA: 1070",
+        "alert_id": "FLT-20260225232924-0004",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:29:24.717286",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232924"
+      },
+      {
+        "recipient": "+91-98765-43211",
+        "recipient_type": "official",
+        "message": "EMERGENCY: Coimbatore flood risk 96%. EVACUATE IMMEDIATELY to designated safe shelters. SDMA: 1070",
+        "alert_id": "FLT-20260225232924-0004",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:29:24.717397",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232924"
+      },
+      {
+        "recipient": "+91-98765-43212",
+        "recipient_type": "official",
+        "message": "EMERGENCY: Coimbatore flood risk 96%. EVACUATE IMMEDIATELY to designated safe shelters. SDMA: 1070",
+        "alert_id": "FLT-20260225232924-0004",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:29:24.717453",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232924"
+      },
+      {
+        "recipient": "+91-98765-43213",
+        "recipient_type": "official",
+        "message": "EMERGENCY: Coimbatore flood risk 96%. EVACUATE IMMEDIATELY to designated safe shelters. SDMA: 1070",
+        "alert_id": "FLT-20260225232924-0004",
+        "status": "delivered",
+        "timestamp": "2026-02-25T23:29:24.717490",
+        "cost": 0.02,
+        "gateway": "mock_gateway",
+        "message_id": "MSG-20260225232924"
+      },
+      {
+        "recipient": "PUBLIC_GROUP",
+        "recipient_type": "public",
+        "district": "Coimbatore",
+        "subscriber_count": 4000,
+        "message": "அவசரநிலை: கோயம்புத்தூர் வெள்ள அபாயம் 96%. உடனடியாக நியமிக்கப்பட்ட பாதுகாப்பு முகாம்களுக்கு வ. SDMA: 1070",
+        "status": "queued",
+        "timestamp": "2026-02-25T23:29:24.717539",
+        "cost": 80.0
+      }
+    ],
+    "alert_metadata": {
+      "probability": 95.5,
+      "top_driver": "River flooding + Dam overflow risk"
+    }
+  }
+]
