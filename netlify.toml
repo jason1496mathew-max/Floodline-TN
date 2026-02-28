@@ -7,7 +7,7 @@
 
 [build.environment]
   NODE_VERSION = "18.17.0"
-  VITE_API_BASE_URL = "https://floodline-tn-api.onrender.com/api/v1"
+  VITE_API_BASE_URL = "https://floodline-tn.onrender.com/api/v1"
 
 [[redirects]]
   from = "/*"
