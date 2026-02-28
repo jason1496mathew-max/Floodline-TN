@@ -38,7 +38,7 @@ export const AppProvider = ({ children }) => {
         lon: district.coordinates?.lon || district.lon,
         // Ensure risk object exists
         risk: {
-          probability: district.risk_probability || 0,
+          probability: (district.risk_probability || 0) * 100, // Convert decimal to percentage
           class: district.risk_class || 'Low'
         }
       }));

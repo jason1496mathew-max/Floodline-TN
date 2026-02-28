@@ -68,7 +68,7 @@ const ForecastPage = () => {
               <option value="">Choose a district...</option>
               {districts.map((district) => (
                 <option key={district.name} value={district.name}>
-                  {district.name} ({district.risk.toFixed(1)}% risk)
+                  {district.name} ({(district.risk?.probability * 100 || 0).toFixed(1)}% risk)
                 </option>
               ))}
             </Form.Select>
